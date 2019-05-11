@@ -1,0 +1,529 @@
+﻿/*הטמעת פונט*/
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+
+
+body {
+    direction: rtl;
+    background-color: #FAFAFA; 
+}
+/*רציתי להכניס את הפונט לגוף האתר אבל הוא לא נתן לי אז רשמתי כל אחד בנפרד */
+/*font-family: 'Heebo', sans-serif;*/
+
+/*קונטיינר עבור דף הבית*/
+#container {
+    width: 960px;
+    margin: 0 auto;
+    font-family:'Heebo';
+}
+
+/*קונטיינר עבור יתר העמודים באתר*/
+#container2 {
+    width: 960px;
+    height:2000px;
+    margin: 0 auto;
+    font-family:'Heebo';
+    background-image: url('../yuvalG/aboutMyself/cover-35.png');
+    position: center;
+}
+
+/*יצירת תפריט אופקי*/
+nav {
+    margin: 20px 230px;
+}
+
+nav ul li {
+    display: inline-block;
+    float: right;
+    
+}
+
+/*עיצוב התפריט*/
+    nav ul li a {
+        display: inline-block;
+        background-color: #FAFAFA;
+        color: black;
+        width: 120px;
+        height: 30px;
+        padding-top: 10px;
+        text-decoration: none;
+        text-align: center;
+        background-color: #FAFAFA;
+        font-family:'Heebo';
+    }
+
+.color {
+    background-color: palevioletred;
+    font-family: 'Heebo';
+}
+
+/*עיצוב אינטראקציה לקישורים*/
+nav ul li a:hover {
+    background-color: lavenderblush;
+}
+        nav ul li a:active {
+            background-color: palevioletred;
+        }
+
+/*עיצוב כותרת עליונה לאתר*/
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+    font-family: 'Heebo';
+}
+
+/*עיצוב כותרת עמוד הבית*/
+#myName {
+    text-align: right;
+    font-size: 70PX;
+    position: relative;
+    right: 438px;
+    top: 462px;
+    width: 500px;
+    font-family: 'Heebo';
+}
+
+/*עיצוב הסבר על עצמי - עמוד הבית*/
+#about {
+    font-family: 'Heebo';
+    text-align: center;
+    font-size: 17PX;
+    position: relative;
+    right: 66px;
+    top: -1476px;
+    width: 800px;
+    font-weight: bold;
+}
+/*עיצוב הכותרות והטקסט לאתר*/
+#allText {
+    position: relative;
+    left: 210px;
+    top: 50px;
+    width: 500px;
+}
+
+/*עיצוב כותרות ראשיות לעמודים*/
+h2 {
+    font-family: 'Heebo';
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    right: 438px;
+    top: 29px;
+    width: 500px;
+}
+
+/*עיצוב כותרות משנה*/
+h3 {
+    font-family:'Heebo';
+    text-align: center;
+    font-size: 20PX;
+    position: relative;
+    right: 433px;
+    top: 24px;
+    width: 500px;
+}
+
+/*פסקה 1 - עמוד פורטרט(קולאז)*/
+#collage1 {
+    font-family: 'Heebo';
+    text-align: center;
+    font-size: 18PX;
+    position: relative;
+    right: 438px;
+    top: 100px;
+    width: 500px;
+    line-height: 1.5;
+}
+
+/*פסקה 2 - עמוד פורטרט(קולאז)*/
+#collage2 {
+    font-family: 'Heebo';
+    text-align: center;
+    font-size: 18PX;
+    position: relative;
+    right: 438px;
+    top: 125px;
+    width: 500px;
+    line-height: 1.5;
+}
+
+/*פסקה 1 - האדם המושלם*/
+#Man1 {
+    font-family: 'Heebo';
+    text-align: center;
+    font-size: 18PX;
+    position: relative;
+    right: 438px;
+    top: 52px;
+    width: 500px;
+    line-height: 1.5;
+}
+
+/*פסקה 2 - האדם המושלם*/
+#Man2 {
+    font-family: 'Heebo';
+    text-align: center;
+    font-size: 30PX;
+    position: relative;
+    right: 500px;
+    top: 60px;
+    width: 500px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+/*פסקה 3 - האדם המושלם*/
+#Man3 {
+    font-family: 'Heebo';
+    text-align: right;
+    font-size: 18PX;
+    position: relative;
+    right: 650px;
+    top: 122px;
+    width: 500px;
+    line-height: 1.5;
+}
+
+/*פסקה 4 - האדם המושלם*/
+#Man4 {
+    font-family: 'Heebo';
+    text-align: right;
+    font-size: 18PX;
+    position: relative;
+    right: 650px;
+    top: 143px;
+    width: 500px;
+    line-height: 1.5;
+}
+
+/*טקסט הסבר להגדלת תמונה - עמוד קולאז*/
+#onClickPortrait {
+    font-family: 'Heebo';
+    text-align: center;
+    font-size: 15PX;
+    position: relative;
+    width: 600px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+    /*טקסט הסבר להגדלת תמונה - עמוד פוסטר  */
+#onClickPoster {
+    font-family: 'Heebo';
+    text-align: center;
+    font-size: 15PX;
+    position: relative;
+    width: 500px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+/*טקסט הסבר להגדלת תמונה - תמונת פרשנות האדם המושלם*/
+#onClickMan1 {
+    font-family: 'Heebo';
+    text-align: center;
+    font-size: 15PX;
+    position: relative;
+    width: 500px;
+    font-weight: bold;
+    position: relative;
+    top: -110px;
+    right: 78px;
+}
+
+/*טקסט הסבר להפעלת סרטון - האדם המושלם*/
+#onClickMan2 {
+    font-family: 'Heebo';
+    text-align: center;
+    font-size: 15PX;
+    position: relative;
+    width: 500px;
+    font-weight: bold;
+    position: relative;
+    top: -50px;
+    right: 80px;
+}
+
+/*עיצוב תמונות רקע - קצת על עצמי - שימוש במעבר עכבר*/
+#blue {
+    height: 175px;
+    width: 472px;
+    background-image: url('../yuvalG/aboutMyself/color-28.png');
+    display: inline-block;
+    margin: 59px 200px;
+    position: relative;
+    top: -298px;
+    right: 242px;
+}
+#green {
+    height: 238px;
+    width: 469px;
+    background-image: url(../yuvalG/aboutMyself/color-29.png);
+    display: inline-block;
+    margin: 59px 200px;
+    position: relative;
+    top: -822px;
+    right: 242px;
+}
+#purple {
+    height: 230px;
+    width: 361px;
+    background-image: url(../yuvalG/aboutMyself/color-30.png);
+    display: inline-block;
+    margin: 59px 200px;
+    position: relative;
+    top: -1180px;
+    right: -121px;
+}
+
+#every {
+    top: 10px;
+    position: relative;
+    left: 25px
+}
+#sun {
+    height: 125px;
+    width: 130px;
+    background-image: url('../yuvalG/aboutMyself/sun.png');
+    background-position: left;
+    display: inline-block;
+    margin: 146px -64px;
+}
+
+    #sun:hover {
+        height: 125px;
+        width: 130px;
+        background-image: url('../yuvalG/aboutMyself/sun.png');
+        background-position: right;
+        display: inline-block;
+        margin: 146px -64px;
+    }
+
+#art {
+    height: 125px;
+    width: 130px;
+    background-image: url('../yuvalG/aboutMyself/art.png');
+    background-position: left;
+    display: inline-block;
+    margin: 148px 56px;
+}
+    #art:hover {
+        height: 125px;
+        width: 130px;
+        background-image: url('../yuvalG/aboutMyself/art.png');
+        background-position: right;
+        display: inline-block;
+        margin: 148px 56px;
+    }
+
+
+#baker {
+    height: 125px;
+    width: 130px;
+    background-image: url('../yuvalG/aboutMyself/baker.png');
+    background-position: left;
+    display: inline-block;
+    margin: 60px -198px;
+}
+
+    #baker:hover {
+        height: 125px;
+        width: 130px;
+        background-image: url('../yuvalG/aboutMyself/baker.png');
+        background-position: right;
+        display: inline-block;
+        margin: 60px -198px;
+    }
+
+#home {
+    height: 125px;
+    width: 130px;
+    background-image: url('../yuvalG/aboutMyself/home.png');
+    background-position: left;
+    display: inline-block;
+    margin: 56px 196px;
+}
+
+    #home:hover {
+        height: 125px;
+        width: 130px;
+        background-image: url('../yuvalG/aboutMyself/home.png');
+        background-position: right;
+        display: inline-block;
+        margin: 56px 196px;
+    }
+#lemon {
+    height: 125px;
+    width: 130px;
+    background-image: url('../yuvalG/aboutMyself/lemon.png');
+    background-position: left;
+    display: inline-block;
+    margin: -42px -458px;
+}
+
+    #lemon:hover {
+        height: 125px;
+        width: 130px;
+        background-image: url('../yuvalG/aboutMyself/lemon.png');
+        background-position: right;
+        display: inline-block;
+        margin: -42px -458px;
+    }
+
+#student {
+    height: 125px;
+    width: 130px;
+    background-image: url('../yuvalG/aboutMyself/student.png');
+    background-position: left;
+    display: inline-block;
+    margin: -32px 451px;
+}
+
+    #student:hover {
+        height: 125px;
+        width: 130px;
+        background-image: url('../yuvalG/aboutMyself/student.png');
+        background-position: right;
+        display: inline-block;
+        margin: -32px 451px;
+    }
+
+#trip {
+    height: 125px;
+    width: 130px;
+    background-image: url('../yuvalG/aboutMyself/trip.png');
+    background-position: left;
+    display: inline-block;
+    margin: 139px -447px;
+}
+
+    #trip:hover {
+        height: 125px;
+        width: 130px;
+        background-image: url('../yuvalG/aboutMyself/trip.png');
+        background-position: right;
+        display: inline-block;
+        margin: 139px -447px;
+    }
+
+#work {
+    height: 125px;
+    width: 130px;
+    background-image: url('../yuvalG/aboutMyself/work.png');
+    background-position: left;
+    display: inline-block;
+    margin: 60px 308px;
+}
+
+    #work:hover {
+        height: 125px;
+        width: 130px;
+        background-image: url('../yuvalG/aboutMyself/work.png');
+        background-position: right;
+        display: inline-block;
+        margin: 60px 308px;
+    }
+
+#army {
+    height: 155px;
+    width: 229px;
+    background-image: url('../yuvalG/aboutMyself/army-32.png');
+    background-position: top;
+    display: inline-block;
+    margin: -85px -425px;
+}
+
+    #army:hover {
+        height: 155px;
+        width: 229px;
+        background-image: url('../yuvalG/aboutMyself/army-32.png');
+        background-position: bottom;
+        display: inline-block;
+        margin: -85px -425px;
+    }
+/*סיום עיצוב תמונות רקע - קצת על עצמי*/
+
+
+    /*פוסטר-מיקום של כל התמונה כולל הכיתוב יחד ביחס לעמוד*/
+#imgLink 
+{
+    width: 500px;
+    height: 400px;
+    margin: 220px 220px;
+}
+/*קולאז'-מיקום של כל התמונה כולל הכיתוב יחד ביחס לעמוד*/
+#imgLink2 {
+    width: 600px;
+    height: 400px;
+    margin: 220px 180px;
+}
+
+/*האדם המושלם-מיקום של כל התמונה כולל הכיתוב יחד ביחס לעמוד - נכון גם לסרטון*/
+#imgLink1 {
+    width: 500px;
+    height: 400px;
+    margin: 220px 225px;
+}
+#videoLink {
+    width: 500px;
+    height: 400px;
+    margin: 220px 225px;
+}
+}
+
+/*מיקום וגודל לקולאז*/
+#portaitS {
+    height: 350px;
+    width: 500px;
+    margin: 10px 97px
+}
+
+/*מיקום וגודל לתמונת פוסטר*/
+#posterS {
+    height: 430px;
+    width: 313px;
+    margin: 10px 97px 
+}
+
+
+/*מיקום למוסיקת אווירה - קולאז ופוסטר*/
+.Sound {
+    position: relative;
+    TOP: 53px;
+    right: 538px;
+}
+
+/*מיקום סרטון - האדם המושלם*/
+#video {
+    position: relative;
+    TOP: -20px;
+    right: 200px;
+}
+
+/*תמונה מקורית - האדם המושלם - מיקום*/
+#original {
+    margin: -60px 420px;
+}
+
+/*פרשנות לתמונה - האדם המושלם - מיקום*/
+#ManS {
+    position: relative;
+    TOP: -78px;
+    right: 274px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+    #ManS:hover {
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+        background-color: #fff;
+        box-shadow: 0 0 30px 20px #ffc200, /* inner white */
+        0 0 100px 20px #ffd800, /* middle magenta */
+        0 0 140px 20px #b6ff00; /* outer cyan */
+    }
