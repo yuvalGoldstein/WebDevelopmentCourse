@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>הפקולטה לטכנולוגיות למידה HIT</title>
+    <meta name="description" content="עמוד נחיתה - הפקולטה לטכנולוגיות למידה במכון הטכנולוגי חולון" />
+    <meta name="keywords" content="פקולטה, טכנולוגיות למידה, מיומנויות, כלים, לפתח, לנהל, לעצב, למידה" />
+    <meta name="author" content="יובל גולדשטיין" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Alef:400,700&display=swap&subset=hebrew" rel="stylesheet">
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <div id="container">
+      
+            <h1> בואו ללמוד בפקולטה לטכנולוגיות למידה!<br />
+                <span id="sTitle">כי למה שלא תפתחו את כל המיומנויות שלכם?</span>
+            </h1>
+           
+            <p id="shortText">
+                טכנולוגיות הלמידה כוללות כל אמצעי מבוסס טכנולוגיה <br />
+                המסייע לתווך הדרכה ולהטמיע ידע ומיומנויות, מה שנקרא- <br />
+                <b>הייטק בלמידה ולמידה בהייטק</b>
+            </p>
+
+        <section>
+            <h2>כאן תקבלו את הכלים:</h2>
+            <ul>
+                <li>לפתח ולנהל אתרים</li>
+                <li>לפתח משחקי מחשב</li>
+                <li>לעצב ממשקי מידע</li>
+                <li>לעצב ולפתח אפליקציות</li>
+                <li>לפתח ולנהל הדרכה</li>
+                <li>לנהל ידע בארגונים</li>
+            </ul>
+        </section>
+
+        <div id="contact">
+            <p><b>נשמע מעניין? השאירו פרטים וניצור אתכם קשר!</b></p>
+            <form>
+                <input type="hidden" id="myEmail" name="name" value="yuvalgold94@gmail.com">
+
+
+                <label for="Name">
+                    שמך המלא:
+                    <input type="text" id="Name" placeholder="הכנס שם פרטי ושם משפחה" />
+                </label>
+
+                <label for="phone">
+                    טלפון:
+                    <input type="text" id="phone" placeholder="הזן את מספרך" />
+                </label>
+
+                <label for="email">
+                    דוא"ל:
+                    <input type="text" id="email" placeholder="הזן מייל" />
+                </label>
+
+                <label for="mySelect">
+                    מתעניין ב
+                    <select id="mySelect">
+                        <option value="1" selected>תואר ראשון</option>
+                        <option value="2">תואר שני</option>
+                    </select>
+                </label>
+
+                <input type="submit" id="Send" value="שלח">
+
+                <div id="feedback"></div>
+            </form>
+
+            <p id="more">למידע נוסף על הפקולטה:</p>
+            <a href="https://www.hit.ac.il/telem/overview" title="לאתר HIT - פתיחה בדף חדש" target="_blank">
+                <img class="logo-hit" src="logo50.png" alt="לוגו HIT">
+            </a>
+        </div>
+
+        <div id="brain"></div>
+        <div id="line"></div>
+    </div>
+</body>
+</html>
